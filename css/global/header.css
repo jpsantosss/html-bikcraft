@@ -29,7 +29,7 @@
     content: "";
     position: absolute;
     left:0;
-    top: 75%;
+    top: 80%;
     width: 0;
     height: 2px;
     background-color: var(--w);
@@ -46,11 +46,10 @@
     }
     .cabecalho-navegacao-lista-item-botao:hover{
         background-color: var(--c009);
-        font-weight: 600;
         transition: 0.7s;
     }
-    .cabecalho-navegacao-lista-item-botao:hover:after{
-        width: 0;
+    .cabecalho-navegacao-lista-item-botao:after{
+        display: none;
     }
 
 }
