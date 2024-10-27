@@ -51,7 +51,6 @@
     .cabecalho-navegacao-lista-item-botao:after{
         display: none;
     }
-
 }
 @media (max-width: 600px) {
     .cabecalho-navegacao-lista{
