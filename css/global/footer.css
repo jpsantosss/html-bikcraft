@@ -21,8 +21,6 @@ img{
     border-top: 1px solid var(--c011);
 }
 .contato-titulo, .informacoes-titulo{
-    font: 500 1.5rem/2.25rem 'Roboto', sans-serif;
-    text-transform: uppercase;
     color: white;
     margin-bottom: 24px;
 }
@@ -44,7 +42,6 @@ footer ul{
 .contato-lista-3-item,
 .informacoes-lista-item{
     color: var(--c005);
-    font: 500 1.125rem/1.5rem 'Roboto', sans-serif;
 }
 .contato-lista-1-item, 
 .contato-lista-2-item,
@@ -75,7 +72,6 @@ footer ul{
 }
 .footer-text{
     color: var(--c006);
-    font: 500 1.125rem/1.5rem 'Roboto', sans-serif;
     grid-column: 1 / -1;
 }
 @media (max-width: 800px) {
@@ -92,7 +88,6 @@ footer ul{
         gap: 40px;
     }
     .contato-titulo, .informacoes-titulo{
-        font: 400 1rem/1.5rem 'Roboto', sans-serif;
         margin-bottom: 0px;
     }
 }

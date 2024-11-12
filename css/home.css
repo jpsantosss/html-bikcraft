@@ -18,14 +18,12 @@
 }
 .introducao h1{
     margin-bottom: 32px;
-    font: 600 64px/1.125 'Poppins', sans-serif;
 }
 .introducao h1 span{
     color: var(--cp001);
 }
-.introducao p{
+.introducao-paragrafo{
     margin-bottom: 40px;
-    font: 400 24rem/1.5 'Roboto', sans-serif;
     color: var(--c005);
 }
 .introducao-imagem img{
