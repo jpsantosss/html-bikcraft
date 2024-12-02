@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Global*/
 @import "global/global.css";
 @import "global/header.css";
 @import "global/footer.css";
@@ -7,3 +8,4 @@
 @import "home/bicicletas-lista.css";
 @import "home/tecnologias.css";
 @import "home/parceiros.css";
+@import "home/depoimento.css";
