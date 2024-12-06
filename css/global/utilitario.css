@@ -48,6 +48,9 @@
     font: 600 1.125rem/1.35 'Poppins', sans-serif;
     max-width: max-content;
 }
+.botao:hover{
+    background-image: linear-gradient(#FFB60D, #E59317);
+}
 .botao.secundario{
     background: var(--c010);
     color: var(--c002);
@@ -55,8 +58,21 @@
 .botao.secundario:hover{
     background: var(--c009);
 }
-.botao:hover{
-    background-image: linear-gradient(#FFB60D, #E59317);
+.botao.seta{
+    display: flex;
+    align-items: center;
+}
+.botao.seta::after{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url(../../images/icones/seta.svg);
+    transition: 0.3s;
+}
+.botao.seta:hover::after{
+    transform: translateX(4px);
 }
 .link{
     display: inline-block;
