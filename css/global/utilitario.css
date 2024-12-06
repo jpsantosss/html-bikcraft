@@ -29,6 +29,14 @@
     margin-left: auto;
     margin-right: auto;
 }
+.titulo-bg{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--c011);
+}
+.titulo p{
+    margin-bottom: 4px;
+}
 .botao{
     display: inline-block;
     padding: 16px 32px;
@@ -179,5 +187,14 @@
     .font-1-xl,
     .font-2-xl {
       font-size: 1.5rem;
+    }
+    .titulo-bg{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .titulo p{
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
     }
   }
