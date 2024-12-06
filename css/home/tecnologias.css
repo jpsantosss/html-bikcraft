@@ -15,28 +15,17 @@
 .tecnologias-conteudo > span{
     display: block;
     margin-bottom: 20px;
-    color: var(--c005);
 }
 .tecnologias-conteudo > h2{
     margin-bottom: 32px;
-    color: var(--w);
-}
-.tecnologias-conteudo h2 span{
-    color: var(--cp001);
 }
 .tecnologias-conteudo > p{
     margin-bottom: 20px;
-    color: var(--c005);
 }
 .tecnologias-conteudo a{
     margin-bottom: 80px;
 }
-.tecnologias-conteudo div h3{
-    color: var(--w);
-}
-.tecnologias-conteudo div p{
-    color: var(--c005);
-}
+
 .tecnologias-vantagens{
     display: flex;
     gap: 40px;

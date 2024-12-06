@@ -108,6 +108,61 @@
 .font-2-xs {
     font: 400 0.875rem/1.43 'Poppins', sans-serif;
 }
+.w{
+    color: var(--w)
+}
+.c001{
+    color: var(--c001)
+}
+.c002{
+    color: var(--c002)
+}
+.c003{
+    color: var(--c003)
+}
+.c004{
+    color: var(--c004)
+}
+.c005{
+    color: var(--c005)
+}
+.c006{
+    color: var(--c006)
+}
+.c007{
+    color: var(--c007)
+}
+.c008{
+    color: var(--c008)
+}
+.c009{
+    color: var(--c009)
+}
+.c010{
+    color: var(--c010)
+}
+.c011{
+    color: var(--c011)
+}
+.c012{
+    color: var(--c012)
+}
+.cp001{
+    color: var(--cp001)
+}
+.cp002{
+    color: var(--cp002)
+}
+.cp003{
+    color: var(--cp003)
+}
+.cp004{
+    color: var(--cp004)
+}
+.cp005{
+    color: var(--cp005)
+}
+
 @media (max-width: 1200px) {
     .font-1-xxl {
       font-size: 3rem;

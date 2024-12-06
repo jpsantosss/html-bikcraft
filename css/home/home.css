@@ -1,7 +1,6 @@
 @charset "UTF-8";
 .introducao-container{
     background-color: var(--c012);
-    color: var(--w);
     box-shadow: inset 0px -120px white;
 }
 .introducao{
@@ -16,12 +15,8 @@
 .introducao h1{
     margin-bottom: 32px;
 }
-.introducao h1 span{
-    color: var(--cp001);
-}
 .introducao-paragrafo{
     margin-bottom: 40px;
-    color: var(--c005);
 }
 .introducao-imagem img{
     width: 100%;

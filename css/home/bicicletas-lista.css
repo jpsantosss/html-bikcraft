@@ -42,12 +42,6 @@
 .bicicletas-lista a:hover h3::before{
     width: 24px;
 }
-.span-cp001{
-    color: var(--cp001);
-}
-.span-c008{
-    color: var(--c008);
-}
 @media (max-width: 800px){
     .bicicletas-lista{
         padding-bottom: 60px;

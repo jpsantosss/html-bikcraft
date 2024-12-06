@@ -15,9 +15,6 @@
     padding: 40px 40px 80px 80px;
     align-self: end;
 }
-blockquote{
-    color: var(--cp005);
-}
 .depoimento-conteudo p{
     font-family: "Merriweather", serif;
     font-style: italic;
@@ -39,9 +36,6 @@ blockquote{
 }
 .depoimento-conteudo p::after{
     content: '”';
-}
-blockquote > span{
-    color: var(--cp004);
 }
 @media (max-width: 800px){
     .depoimento{

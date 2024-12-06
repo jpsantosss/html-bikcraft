@@ -12,7 +12,6 @@
     display: grid;
     grid-template-columns: 3fr 5fr 4fr;
     gap: 80px;
-    margin-bottom: 80px;
 }
 img{
     align-self: start;
@@ -21,7 +20,6 @@ img{
     border-top: 1px solid var(--c011);
 }
 .contato-titulo, .informacoes-titulo{
-    color: white;
     margin-bottom: 24px;
 }
 footer ul{
@@ -36,12 +34,6 @@ footer ul{
 .contato-lista-3{
     display: flex;
     gap: 32px;
-}
-.contato-lista-1-item, 
-.contato-lista-2-item,
-.contato-lista-3-item,
-.informacoes-lista-item{
-    color: var(--c005);
 }
 .contato-lista-1-item, 
 .contato-lista-2-item,
@@ -71,7 +63,6 @@ footer ul{
     color: var(--c003);
 }
 .footer-text{
-    color: var(--c006);
     grid-column: 1 / -1;
 }
 @media (max-width: 800px) {
