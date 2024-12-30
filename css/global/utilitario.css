@@ -38,6 +38,10 @@
     background-color: var(--c011);
 }
 
+.titulo {
+    background: url('../../images/dec/top-right.svg') no-repeat top right 20px;
+}
+
 .titulo p {
     margin-bottom: 4px;
 }
