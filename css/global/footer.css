@@ -1,84 +1,70 @@
 @charset "UTF-8";
 @import "../utilitario.css";
-.footer{
+
+.footer-bg {
     background-color: var(--c012);
 }
-.footer-container{
-    padding: 60px 20px;
-    margin: auto;
-    max-width: 1200px;
-}
-.footer-container{
+
+.footer {
     display: grid;
     grid-template-columns: 3fr 5fr 4fr;
-    gap: 80px;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-img{
-    align-self: start;
+
+.footer h3 {
+    margin-bottom: 32px;
 }
-.contato ul + ul{
-    border-top: 1px solid var(--c011);
+
+.footer-contato ul {
+    margin-bottom: 32px;
 }
-.contato-titulo, .informacoes-titulo{
-    margin-bottom: 24px;
+
+.footer-contato li:nth-child(even):after {
+    content: "";
+    display: block;
+    max-width: 360px;
+    height: 2px;
+    background: var(--c011);
+    margin-top: 16px;
 }
-footer ul{
-    list-style: none;
+
+.footer li {
+    margin-bottom: 16px;
 }
-.contato-lista-1, 
-.contato-lista-2,
-.contato-lista-3,
-.informacoes-lista{
-    padding: 12px 0px 12px 0px;
-}
-.contato-lista-3{
+
+.footer-redes {
     display: flex;
     gap: 32px;
 }
-.contato-lista-1-item, 
-.contato-lista-2-item,
-.contato-lista-3-item:first-child{
-    margin-bottom: 12px;
+
+.footer a:hover {
+    color: var(--w);
 }
-.contato-lista-1-item a{
-    text-decoration: none;
-    color: inherit;
-    transition: 0.2s ease-in-out;
+
+.footer-copy {
+    grid-column: 1/-1;
+    margin-top: 40px;
 }
-.contato-lista-3-item a{
-    color: inherit;
-    transition: 0.2s ease-in-out;
-}
-.informacoes-lista-item{
-    padding: 0px 0px 12px 0px;
-}
-.informacoes-lista-item a{
-    text-decoration: none;
-    color: inherit;
-    transition: 0.2s ease-in-out;
-}
-.contato-lista-1-item a:hover,
-.contato-lista-3-item a:hover,
-.informacoes-lista-item a:hover{
-    color: var(--c003);
-}
-.footer-text{
-    grid-column: 1 / -1;
-}
+
 @media (max-width: 800px) {
-    .footer img{
+    .footer>img {
         display: none;
     }
-    .footer-container{
+
+    .footer {
         grid-template-columns: 1fr 1fr;
     }
 }
+
 @media (max-width: 600px) {
-    .footer-container{
+    .footer {
         grid-template-columns: 1fr;
-        gap: 40px;
+        gap: 60px;
     }
-    .contato-titulo, .informacoes-titulo{
-        margin-bottom: 0px;
+
+    .footer-copy {
+        margin-top: 0px;
     }
 }
