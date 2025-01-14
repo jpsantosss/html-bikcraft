@@ -1,9 +1,11 @@
 @charset "UTF-8";
 @import "../utilitario.css";
-.cabecalho{
+
+.cabecalho {
     background-color: var(--c012);
 }
-.cabecalho-container{
+
+.cabecalho-container {
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
@@ -11,61 +13,74 @@
     justify-content: space-between;
     align-items: center;
 }
-.cabecalho-navegacao-lista{
+
+.cabecalho-navegacao-lista {
     display: flex;
     gap: 40px;
     list-style: none;
 }
-.cabecalho-navegacao-lista-item-botao{
+
+.cabecalho-navegacao-lista-item-botao {
     position: relative;
     display: inline-block;
     padding: 10px 0px;
     text-decoration: none;
 }
-.cabecalho-navegacao-lista-item-botao:after{
+
+.cabecalho-navegacao-lista-item-botao:after {
     content: "";
     position: absolute;
-    left:0;
+    left: 0;
     top: 80%;
     width: 0;
     height: 3px;
     background-color: var(--w);
     transition: width .3s ease-in-out;
 }
-.cabecalho-navegacao-lista-item-botao:hover:after {
+
+.cabecalho-navegacao-lista-item-botao:hover:after,
+.cabecalho-navegacao-lista-item-botao.ativo:after {
     width: 100%;
 }
+
 @media (max-width: 800px) {
-    .cabecalho-navegacao-lista-item-botao{
+    .cabecalho-navegacao-lista-item-botao {
         background-color: var(--c011);
         padding: 12px 16px;
         border-radius: 4px;
     }
-    .cabecalho-navegacao-lista-item-botao:hover{
+
+    .cabecalho-navegacao-lista-item-botao:hover {
         background-color: var(--c009);
         transition: 0.7s;
     }
-    .cabecalho-navegacao-lista-item-botao:after{
+
+    .cabecalho-navegacao-lista-item-botao:after {
         display: none;
     }
 }
+
 @media (max-width: 600px) {
-    .cabecalho-navegacao-lista{
+    .cabecalho-navegacao-lista {
         gap: 15px;
     }
-    .cabecalho-navegacao-lista-item-botao{
+
+    .cabecalho-navegacao-lista-item-botao {
         padding: 6px 15px;
     }
+
     .cabecalho-navegacao-lista-item:hover:after {
         width: 0;
     }
 }
+
 @media (max-width: 510px) {
-    .cabecalho-container{
+    .cabecalho-container {
         flex-flow: column nowrap;
         align-items: initial;
         gap: 20px;
     }
+
     .cabecalho-navegacao-lista-item:hover:after {
         width: 0;
     }
