@@ -52,3 +52,8 @@ function eventosGaleria(img){
     img.addEventListener("click", trocarImagem);
 }
 galeria.forEach(eventosGaleria);
+
+// Ativação do plugin
+if (window.SimpleAnime){
+    new SimpleAnime();
+}

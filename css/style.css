@@ -5,6 +5,7 @@
 @import "global/footer.css";
 @import "global/utilitario.css";
 @import "global/formulario.css";
+@import "global/animacao.css";
 /*Home*/
 @import "home/home.css";
 @import "home/bicicletas-lista.css";
