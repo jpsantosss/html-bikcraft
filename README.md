@@ -15,7 +15,7 @@ O Bikcraft é um site fictício de uma empresa que vende bicicletas personalizad
 ## Como Conhecer o Projeto
 
 1. Acesse o link:
-    [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
+    [bikcraft.com](https://jpsantosss.github.io/html-bikcraft/)
 
 ## Contato
 
